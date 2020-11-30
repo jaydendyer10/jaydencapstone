@@ -16,15 +16,22 @@ function App() {
       <div>Add an Expense</div>
       <div className="expense-options">
         <div>
-        <DropdownButton id="dropdown-item-button" title="Dropdown button">
-          <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
-          <Dropdown.Item as="button">Action</Dropdown.Item>
-          <Dropdown.Item as="button">Another action</Dropdown.Item>
-          <Dropdown.Item as="button">Something else</Dropdown.Item>
+        <DropdownButton id="dropdown-item-button" title="Purchased with:">
+          {/* <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText> */}
+          <Dropdown.Item as="button">Cash</Dropdown.Item>
+          <Dropdown.Item as="button">Card</Dropdown.Item>
         </DropdownButton>
         </div>
         <div>
-        <DropdownButton id="dropdown-item-button" title="Dropdown button">
+        <DropdownButton id="dropdown-item-button" title="Item">
+          {/* <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText> */}
+          <Dropdown.Item as="button">Action</Dropdown.Item>
+          <Dropdown.Item as="button">Another action</Dropdown.Item>
+          <Dropdown.Item as="button">Something else</Dropdown.Item>
+      </DropdownButton>
+        </div>
+        <div>
+        <DropdownButton id="dropdown-item-button" title="Date Purchased">
           <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
           <Dropdown.Item as="button">Action</Dropdown.Item>
           <Dropdown.Item as="button">Another action</Dropdown.Item>
@@ -32,15 +39,7 @@ function App() {
       </DropdownButton>
         </div>
         <div>
-        <DropdownButton id="dropdown-item-button" title="Dropdown button">
-          <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
-          <Dropdown.Item as="button">Action</Dropdown.Item>
-          <Dropdown.Item as="button">Another action</Dropdown.Item>
-          <Dropdown.Item as="button">Something else</Dropdown.Item>
-      </DropdownButton>
-        </div>
-        <div>
-        <DropdownButton id="dropdown-item-button" title="Dropdown button">
+        <DropdownButton id="dropdown-item-button" title="Amount">
           <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
           <Dropdown.Item as="button">Action</Dropdown.Item>
           <Dropdown.Item as="button">Another action</Dropdown.Item>
@@ -54,7 +53,7 @@ function App() {
     </div>
     <div></div>
     </div>
-    <Navigation></Navigation>
+    {/* <Navigation></Navigation> */}
     </div>
 
   );
