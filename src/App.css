@@ -1,7 +1,12 @@
+body {
+  background-color: rgb(145, 238, 144);
+}
+
 .App {
   text-align: center;
-  width: 1000px;
+  width: 100%;
   max-width: 100%;
+  margin: auto;
 }
 
 .App-logo {
@@ -42,6 +47,7 @@
 .expense-options {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .page-grid-column {
