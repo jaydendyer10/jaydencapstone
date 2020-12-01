@@ -113,7 +113,7 @@ function App() {
           }}
         />
         <TextField id="standard-basic" label="Amount" onChange={handleChange('amount')}/>
-        <Button className={classes.button} onClick={handleSave}>Save</Button>
+        <Button className={classes.button} onClick={handleSave}>Add</Button>
       </form>
       <div className={classes.tableContainer}>
         <h1>Expenses</h1>
