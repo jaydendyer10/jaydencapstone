@@ -87,6 +87,7 @@ function App() {
   };
 
   const handleSave = (e) => {
+    setIsSubmitting(true);
     axios.post("/api/items", { newItem });
     window.location.replace("/");
   };
