@@ -62,12 +62,6 @@ function App() {
     amount: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const onSubmit = () => {
-    console.log("hi");
-    setIsSubmitting(true);
-    // Go do your axios call
-    setTimeout(() => setIsSubmitting(false), 5000);
-  };
 
   useEffect(() => {
     function onLoad() {
